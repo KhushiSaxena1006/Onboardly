@@ -1,16 +1,77 @@
-# React + Vite
+# 🚀 Onboardly
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Modern User Onboarding & Profile Management Platform
 
-Currently, two official plugins are available:
+Onboardly is a responsive multi-step user onboarding application designed to provide a smooth and structured profile creation experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of overwhelming users with a long registration form, Onboardly divides the process into three focused stages:
 
-## React Compiler
+**Personal Information → Account Details → Review & Submit**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+After successful registration, users are taken to a personalized dashboard where they can view and edit their profile.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌐 Live Demo
+
+👉 https://onboardly-self.vercel.app/
+
+## 💻 GitHub Repository
+
+👉 https://github.com/KhushiSaxena1006/Onboardly
+
+---
+
+## ✨ Features
+
+### 🧩 Multi-Step Onboarding
+
+The registration process is divided into three simple steps:
+
+1. **Personal Information**
+   - Full name
+   - Phone number
+
+2. **Account Details**
+   - Email address
+   - Password
+   - Confirm password
+
+3. **Review & Submit**
+   - Review all entered information
+   - Confirm profile creation
+
+---
+
+### ✅ Real-Time Form Validation
+
+Onboardly validates user input while filling out the form.
+
+Examples include:
+
+- Valid 10-digit Indian phone number
+- Valid email format
+- Minimum 8-character password
+- Password confirmation matching
+
+Invalid fields display helpful validation messages immediately.
+
+---
+
+### 🔐 Password Visibility Toggle
+
+Users can switch between:
+
+**Show Password ↔ Hide Password**
+
+while entering their credentials.
+
+---
+
+### 📊 Dynamic Progress Indicator
+
+A visual progress bar shows the user's current position in the onboarding process.
+
+```text
+Personal → Account → Review
+    ✓          ✓        →
